@@ -1,0 +1,57 @@
+.admin {
+	width: 100%;
+	min-height: 100vh;
+	background-color: rgb(24, 24, 38);
+	display: flex;
+	color: rgb(165, 165, 186);
+	font-family: Assistant;
+}
+
+.admin > div {
+	min-height: 100%;
+}
+
+.admin h5 {
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 0.5px;
+}
+
+.admin h1 {
+	color: white;
+	font-size: 28px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 20px;
+}
+
+.admin p {
+	font-size: 14px;
+	text-transform: capitalize;
+	line-height: 24px;
+}
+
+.h-hover:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}
+
+.admin-button1 {
+	background-color: rgb(148, 148, 197);
+	min-height: 40px;
+	min-width: 140px;
+	border-radius: 10px;
+	border: none;
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: bold;
+	color: rgb(24, 24, 38);
+}
+
+.admin-button1:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}

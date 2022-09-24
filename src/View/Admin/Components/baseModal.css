@@ -1,0 +1,7 @@
+.admin-base-modal {
+	background-color: rgb(33, 33, 52);
+	border-radius: 20px;
+	border: 1px solid rgb(50, 50, 77);
+	padding: 15px;
+	max-width: 800px;
+}

@@ -1,0 +1,13 @@
+#shadow {
+	position: fixed;
+	z-index: 49;
+}
+.shadow {
+	width: 100vw;
+	height: 100vh;
+	background-color: rgba(0, 0, 0, 0.628);
+}
+
+.shadow:hover {
+	cursor: pointer;
+}

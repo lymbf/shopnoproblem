@@ -1,0 +1,38 @@
+.admin-menu {
+	min-width: 240px;
+	background-color: rgb(33, 33, 52);
+	border-right: 1px solid rgb(50, 50, 77);
+	padding-left: 25px;
+	padding-top: 25px;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.admin-menu-element {
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 35px;
+}
+
+.admin-menu-element > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+	margin-bottom: 15px;
+}
+
+.admin-menu-element h5 {
+	margin-bottom: 15px;
+	margin-top: 0;
+}
+
+.admin-menu-element span {
+	margin-right: 10px;
+}
+
+.admin-menu-element > div:hover {
+	opacity: 0.8;
+	cursor: pointer;
+}

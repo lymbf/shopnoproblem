@@ -1,0 +1,115 @@
+.products-field-names {
+	width: 100%;
+	display: flex;
+	border-bottom: 1px solid rgb(50, 50, 77);
+	margin-bottom: 20px;
+}
+
+.products-field-names > div {
+	display: flex;
+	justify-content: center;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	font-size: 14px;
+	height: 40px;
+	align-items: center;
+
+	color: white;
+}
+
+.admin-products {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+
+.admin-products h1 {
+	margin: 0;
+	padding: 0;
+	width: 150px;
+}
+
+.h1-modal {
+	margin-bottom: 20px;
+	width: 150px;
+}
+
+.admin-product-element {
+	display: flex;
+	max-width: 100%;
+	border-bottom: 1px solid rgb(50, 50, 77);
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+}
+
+.admin-products-modal {
+	width: 100%;
+}
+
+.admin-products-modal > div {
+	width: 100%;
+}
+
+.admin-products-modal > div:last-child {
+	margin-bottom: 0;
+	border-bottom: none;
+}
+
+.admin-product-element > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.admin-product-element > div img {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+}
+
+.product-action-icons span {
+	margin-left: 8px;
+	margin-right: 8px;
+}
+
+.product-action-icons span:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	transform: scale(0.95);
+}
+
+.admin-product-img {
+	overflow: visible;
+}
+
+.admin-product-img img:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	transform: scale(1.1);
+}
+
+.admin-products-bottom-icons {
+	display: flex;
+	flex-direction: row;
+	margin-left: auto;
+}
+
+.admin-products-icon {
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.admin-products-icon span:hover {
+	opacity: 0.8;
+	cursor: pointer;
+	transform: scale(1.15);
+}
+
+.admin-products-add-icon .material-symbols-outlined {
+	font-size: 35px;
+}
